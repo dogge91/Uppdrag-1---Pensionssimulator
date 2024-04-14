@@ -16,11 +16,11 @@ namespace Uppdrag_1___Novo
             String name = Console.ReadLine();                            //  Sparar användarens namn som variabeln "namn"
 
             Console.WriteLine("Hur gammal är du?");                      // Frågar om användarens ålder.
-            string stringNr = Console.ReadLine();                        // Sparar användarens åldern som variabel "stringNr" 
-            int nr = Convert.ToInt32(stringNr);                          // Typomvandlar String till Int så att textsträngen blir siffror som Användaren har skrivit.
-            nr = 65 - nr;                                                // Gör en ekvation talar om för datorn att Pensionen = 65 år(Pensionsåldern) - Användarens ålder 
+            string stringAge = Console.ReadLine();                        // Sparar användarens åldern som variabel "stringNr" 
+            int age = Convert.ToInt32(stringAge);                          // Typomvandlar String till Int så att textsträngen blir siffror som Användaren har skrivit.
+            age = 65 - age;                                                // Gör en ekvation talar om för datorn att Pensionen = 65 år(Pensionsåldern) - Användarens ålder 
             
-            Console.WriteLine("Hej" + " " + name + " " + "du kommer att att gå i pension om" + " "  + nr + " " + "år");  /*  Skriver ut Namn + Ålder och återstående år
+            Console.WriteLine("Hej" + " " + name + " " + "du kommer att att gå i pension om" + " "  + age + " " + "år");  /*  Skriver ut Namn + Ålder och återstående år
                                                                                                                              till pensionen. */
 
         }
